@@ -6,6 +6,7 @@
       <HashCode>AAACAAAAAQAgAAAEAAAACAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>Class\Products.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Products.Class.FixedPriceProduct">
     <Position X="9" Y="1.75" Width="1.5" />

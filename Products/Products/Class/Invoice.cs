@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Products.Class
 {
-    internal class Invoice
+    public class Invoice : IPay
     {
+        private string _Products;
     }
+    public string AddProduct
 }
