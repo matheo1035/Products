@@ -1,14 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Products.Class
+﻿namespace Products.Class
 {
     public class Invoice : IPay
     {
-        private string _Products;
+        private object _Products;
+       
+        public object AddProduct(object Products)
+        {
+            ICollection<Product> products = new List<Product>();
+            {
+                _Products = Products;               
+            }            
+            return _Products;
+        }
+        public override string Invoice()
+        {
+            return (string)_Products;
+        }
+        public override string ToString()
+        {
+            return $"Productos:.......{_Products:C2}" +
+                   $"\n\tTOTAL:.......{ValueToPay():C2}";            
+
+        }
+        public decimal ValueToPay()
+        {
+            ICollection<Product> products = new List<Product>();
+            decimal payRoll = 0;            
+            foreach (Product product in products)
+            { 
+                payRoll += product.Value;
+            }
+            return payRoll; 
+        }
     }
-    public string AddProduct
 }

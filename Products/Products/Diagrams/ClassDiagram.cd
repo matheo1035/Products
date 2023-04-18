@@ -35,5 +35,20 @@
       <FileName>Class\ComposedProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Products.Class.Invoice">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEAAAASAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Products.Class.IPay">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
